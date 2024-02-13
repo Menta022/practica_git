@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.dtg_persona = new System.Windows.Forms.DataGridView();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtg_persona)).BeginInit();
             this.SuspendLayout();
             // 
@@ -40,11 +41,21 @@
             this.dtg_persona.Size = new System.Drawing.Size(308, 219);
             this.dtg_persona.TabIndex = 0;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(610, 40);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(90, 40);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(739, 412);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.dtg_persona);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -56,6 +67,7 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dtg_persona;
+        private System.Windows.Forms.Button button1;
     }
 }
 
