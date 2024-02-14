@@ -5,3 +5,4 @@ C:\Programacion2\seminario de programacion\git practica\git practica\obj\x86\Deb
 C:\Programacion2\seminario de programacion\git practica\git practica\obj\x86\Debug\git practica.csproj.GenerateResource.Cache
 C:\Programacion2\seminario de programacion\git practica\git practica\obj\x86\Debug\git practica.exe
 C:\Programacion2\seminario de programacion\git practica\git practica\obj\x86\Debug\git practica.pdb
+C:\Programacion2\seminario de programacion\git practica\git practica\obj\x86\Debug\git practica.csprojResolveAssemblyReference.cache
