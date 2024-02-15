@@ -69,6 +69,7 @@
             this.btn_borrar.TabIndex = 3;
             this.btn_borrar.Text = "Borrar";
             this.btn_borrar.UseVisualStyleBackColor = true;
+            this.btn_borrar.Click += new System.EventHandler(this.btn_borrar_Click);
             // 
             // Form1
             // 
@@ -81,6 +82,7 @@
             this.Controls.Add(this.dtg_persona);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtg_persona)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
