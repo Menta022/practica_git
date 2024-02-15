@@ -15,5 +15,10 @@ namespace git_practica
         {
             InitializeComponent();
         }
+
+        private void btn_borrar_Click(object sender, EventArgs e)
+        {
+            int numero = 0;
+        }
     }
 }
