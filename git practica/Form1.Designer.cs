@@ -31,7 +31,7 @@
             this.dtg_persona = new System.Windows.Forms.DataGridView();
             this.btn_cargar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_borrar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtg_persona)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,21 +61,21 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Personas:";
             // 
-            // button1
+            // btn_borrar
             // 
-            this.button1.Location = new System.Drawing.Point(622, 139);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 40);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_borrar.Location = new System.Drawing.Point(622, 139);
+            this.btn_borrar.Name = "btn_borrar";
+            this.btn_borrar.Size = new System.Drawing.Size(90, 40);
+            this.btn_borrar.TabIndex = 3;
+            this.btn_borrar.Text = "Borrar";
+            this.btn_borrar.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(739, 412);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_borrar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_cargar);
             this.Controls.Add(this.dtg_persona);
@@ -92,7 +92,7 @@
         private System.Windows.Forms.DataGridView dtg_persona;
         private System.Windows.Forms.Button btn_cargar;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_borrar;
     }
 }
 
