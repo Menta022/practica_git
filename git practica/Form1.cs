@@ -24,7 +24,8 @@ namespace git_practica
         private void btn_borrar_Click(object sender, EventArgs e)
         {
             int numero = 5;
-            int numero2 = 0;
+
+            int numero2 = 1;
         }
     }
 }
