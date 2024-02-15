@@ -16,6 +16,7 @@ namespace git_practica
             InitializeComponent();
         }
 
+<<<<<<< HEAD
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -24,6 +25,11 @@ namespace git_practica
         private void btn_borrar_Click(object sender, EventArgs e)
         {
             int numero = 1;
+=======
+        private void btn_borrar_Click(object sender, EventArgs e)
+        {
+            int numero = 0;
+>>>>>>> manin-2
         }
     }
 }
