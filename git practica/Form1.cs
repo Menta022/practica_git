@@ -29,6 +29,9 @@ namespace git_practica
             dt.Rows.Add("elsa", "pato", 22);
             dt.Rows.Add("pepe", "argento", 40);
             dtg_persona.DataSource = dt;
+            dtg_persona.Columns["Nombre"].SortMode = DataGridViewColumnSortMode.NotSortable;
+            dtg_persona.Columns["Apellido"].SortMode = DataGridViewColumnSortMode.NotSortable;
+            dtg_persona.Columns["Edad"].SortMode = DataGridViewColumnSortMode.NotSortable;
         }
 
         private void btn_borrar_Click(object sender, EventArgs e)
