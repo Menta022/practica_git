@@ -26,6 +26,8 @@ namespace git_practica
             dt.Rows.Add("pepe", "pig", 35);
             dt.Rows.Add("tom", "perez", 21);
             dt.Rows.Add("anna", "redfield", 20);
+            dt.Rows.Add("elsa", "pato", 22);
+            dt.Rows.Add("pepe", "argento", 40);
             dtg_persona.DataSource = dt;
         }
 
