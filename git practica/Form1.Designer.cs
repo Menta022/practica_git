@@ -74,7 +74,7 @@
             // 
             // btn_borrar
             // 
-            this.btn_borrar.Location = new System.Drawing.Point(637, 219);
+            this.btn_borrar.Location = new System.Drawing.Point(637, 360);
             this.btn_borrar.Name = "btn_borrar";
             this.btn_borrar.Size = new System.Drawing.Size(90, 40);
             this.btn_borrar.TabIndex = 3;
