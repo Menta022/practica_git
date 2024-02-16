@@ -18,7 +18,14 @@ namespace git_practica
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            DataTable dt = new DataTable();
+            dt.Columns.Add("Nombre");
+            dt.Columns.Add("Apellido");
+            dt.Columns.Add("Edad");
+            dt.Rows.Add("pepa", "pig", 10);
+            dt.Rows.Add("pepe", "pig", 35);
+            dt.Rows.Add("tom", "perez", 21);
+            dtg_persona.DataSource = dt;
         }
 
         private void btn_borrar_Click(object sender, EventArgs e)
