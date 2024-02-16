@@ -51,7 +51,7 @@
             this.dtg_persona.Name = "dtg_persona";
             this.dtg_persona.ReadOnly = true;
             this.dtg_persona.RowHeadersVisible = false;
-            this.dtg_persona.Size = new System.Drawing.Size(308, 219);
+            this.dtg_persona.Size = new System.Drawing.Size(308, 322);
             this.dtg_persona.TabIndex = 0;
             // 
             // btn_cargar
