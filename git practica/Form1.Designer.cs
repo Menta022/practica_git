@@ -43,9 +43,14 @@
             // 
             // dtg_persona
             // 
+            this.dtg_persona.AllowUserToAddRows = false;
+            this.dtg_persona.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dtg_persona.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dtg_persona.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtg_persona.Location = new System.Drawing.Point(41, 40);
             this.dtg_persona.Name = "dtg_persona";
+            this.dtg_persona.ReadOnly = true;
+            this.dtg_persona.RowHeadersVisible = false;
             this.dtg_persona.Size = new System.Drawing.Size(308, 219);
             this.dtg_persona.TabIndex = 0;
             // 
@@ -141,7 +146,8 @@
             this.Controls.Add(this.btn_cargar);
             this.Controls.Add(this.dtg_persona);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "it ";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtg_persona)).EndInit();
             this.ResumeLayout(false);
