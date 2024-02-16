@@ -87,7 +87,7 @@
             this.Controls.Add(this.dtg_persona);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "it ";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtg_persona)).EndInit();
             this.ResumeLayout(false);
